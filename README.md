@@ -1,4 +1,9 @@
 Java base application to compute ILD for Indeterminate beam.
+Requirments - 
+either
+java version "1.8.0_291"
+Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
+or require JavaFX library to run the application on your System.
 
 Steps to run the application
 1. Download the folder ILD_Problem.1 and ILD_Problem.2
