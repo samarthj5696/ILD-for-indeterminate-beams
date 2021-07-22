@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="168.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SecondController">
+   <children>
+      <Button fx:id="btCaluclate" layoutX="129.0" layoutY="127.0" mnemonicParsing="false" onAction="#switchtograph" prefHeight="25.0" prefWidth="98.0" text="Calculate">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="84.0" layoutY="26.0" text="Length of Beam ">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbNaming" layoutX="15.0" layoutY="91.0" text="Enter Length of beam elements :" />
+      <TextField fx:id="tfBeamleangth" layoutX="199.0" layoutY="87.0" prefHeight="25.0" prefWidth="137.0" />
+      <Button fx:id="btAdd" layoutX="284.0" layoutY="127.0" mnemonicParsing="false" onAction="#addbeamlength" prefHeight="25.0" prefWidth="41.0" text="Add" />
+      <Label fx:id="lbLabel" layoutX="173.0" layoutY="56.0" text="1" textFill="#dd0000">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="14.0" text="Alert : For &quot;in between &quot; there will be (number of beam elements +1)  elements">
+         <font>
+            <Font name="System Italic" size="8.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
