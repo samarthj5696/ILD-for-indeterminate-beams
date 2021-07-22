@@ -6,7 +6,7 @@ Java(TM) SE Runtime Environment (build 1.8.0_291-b10)
 or require JavaFX library to run the application on your System.
 
 Steps to run the application
-1. Download the folder ILD_Problem.1 and ILD_Problem.2
+1. Download the folder ILD for n number of supports.
 2. Double click on .bat file.
 3. Application will run successfully and then enter the inputs.
 4. Graph scene will be presented along with corresponding values in command prompt.
